@@ -1,0 +1,38 @@
+/* CSS Document */
+:root {
+	--Orangeia : #b78000;
+}
+
+* {
+	color: #9E9C9C;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.color0 {
+	color: #FFFFFF;
+	text-shadow: 2px 2px 3px #313131;
+}
+.color1 {
+	color: var(--Orangeia);
+/*	color: rgba(183,128,0,1.00);*/
+}
+.head-text {
+	font-size: 5rem;
+	font-weight: bold;
+	margin: 4rem
+}
+.second-text {
+	/*	color: rgba(255,255,255,1.00); */	
+	font-size: 30px;
+	font-weight: bold;
+}
+.title-text {
+	font-size: 41px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 25px auto 5px;
+}
+
+
+/* .subtitle-text {margin: 5px; font-weight: bold;} */
+/* .subtitle-text::before { display: inline-block; -webkit-font-smoothing: antialiased; font-family: "Font Awesome 5 Free"; font-weight:bold; 	content: "\f111";}*/
+/* h3 {color: rgba(248,248,248,1.00);text-transform: uppercase;}*/
